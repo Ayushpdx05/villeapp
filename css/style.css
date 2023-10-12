@@ -41,13 +41,15 @@ html{
     text-align: center;
     font-size: 2rem;
     color: var(--Very-Dark-Blue);
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    margin-top: -100px; /* Adjust this value to move the section up */
+   
+     
 }
 
 
 .heading h1{
     padding-bottom: 2rem;
+    top: -200px;
 }
 
 
@@ -56,6 +58,7 @@ html{
     margin: auto;
     color: var(--Grayish-Blue);
     font-size: 1.7rem;
+    top: -100px; 
 }
 
 
@@ -86,6 +89,13 @@ html{
 
 
 /* navbar sections starts */
+
+.resized-image {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+}
+
+
 .header{
     padding: 3rem 9%;
     display: flex;
